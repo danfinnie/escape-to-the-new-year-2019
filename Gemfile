@@ -1,5 +1,12 @@
 source "https://rubygems.org"
-gem "sinatra"
+
+ruby "2.4.2"
+
+gem "activerecord"
+gem "foreman"
 gem "pg"
+gem "puma"
 gem "rake"
+gem "sinatra", require: "sinatra/base"
 gem "sinatra-activerecord"
+gem "sinatra-contrib", require: false
