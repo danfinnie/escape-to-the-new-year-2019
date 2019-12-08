@@ -11,6 +11,8 @@ GEM
       rack-protection (= 2.0.7)
       tilt (~> 2.0)
     tilt (2.0.10)
+    sinatra-activerecord (0.1.3)
+      sinatra (>= 0.9.4)
 
 PLATFORMS
   ruby
