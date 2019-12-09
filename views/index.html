@@ -1,0 +1,48 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Escape to the New Year 2019 🍾</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/a4e1e46f-089a-4db7-9ddf-201d27c4f2a5%2Ffavicon.png?v=1575842685233" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Escape to the New Year 2019 🍾
+      </h1>
+    </header>
+
+    <main>
+      <p><strong>Got some intel?</strong></p>
+      
+      <form>
+        <input name="gang-name" aria-label="Gang Name" type="text" maxlength="100" placeholder="Gang Name">
+        <input name="gang-leader" aria-label="Gang Leader" type="text" maxlength="100" placeholder="Gang Leader">
+        <button type="submit" id="submit-dream">Help put drugs on the street</button>
+      </form>
+      
+      <p>
+        <strong>Correct Intel <span id="count"></span></strong>
+        <div id="correctIntel"></div>
+      </p>
+    
+     <p>
+        <strong>Incorrect Intel</strong>
+        <div id="incorrectIntel"></div>
+      </p>
+      
+    </main>
+  </body>
+</html>
